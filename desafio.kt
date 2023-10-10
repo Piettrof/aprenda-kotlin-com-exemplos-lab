@@ -40,6 +40,11 @@ formacaoDev.matricular(usuario1)
 formacaoDev.matricular(usuario2)
 formacaoDev.matricular(usuario3)
 
+//list conteudo 
+  println("Conteúdos da Formação ${formacaoDev.nome}:")
+    for (conteudo in formacaoDev.conteudos) {
+        println("${conteudo.nome} - Duração: ${conteudo.duracao} horas")
+}
 
 
 }
