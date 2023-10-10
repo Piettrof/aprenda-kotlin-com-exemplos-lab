@@ -29,6 +29,11 @@ fun main() {
 
 // Materias 
     val conteudo1 = ConteudoEducacional("Introdução à Programação", 60)
-    val conteudo2 = ConteudoEducacional("Banco de Dados", 60)
-    val conteudo3 = ConteudoEducacional("Desenvolvimento Web", 60)
+    val conteudo2 = ConteudoEducacional("Programação Orientada A Objetos", 60)
+    val conteudo3 = ConteudoEducacional("Desenvolvimento Mobile Kotlin", 60)
+
+//Formação
+    val formacaoDev = Formacao("Desenvolvedor Kotlin", listOf(conteudo1, conteudo2, conteudo3))
+
+
 }
