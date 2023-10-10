@@ -16,11 +16,11 @@ data class Formacao(val nome: String, var conteudos: List<ConteudoEducacional>) 
             println("Usuário ${usuario.nome} matriculado na formação $nome")
             }
     }
-}
+
 
 fun main() {
-    TODO("Analise as classes modeladas para este domínio de aplicação e pense em formas de evoluí-las.")
-    TODO("Simule alguns cenários de teste. Para isso, crie alguns objetos usando as classes em questão.")
+   // TODO("Analise as classes modeladas para este domínio de aplicação e pense em formas de evoluí-las.")
+    //TODO("Simule alguns cenários de teste. Para isso, crie alguns objetos usando as classes em questão.")
 //Alunos
     val usuario1 = Usuario("Kotin Brian")
     val usuario2 = Usuario("DiJavan")
@@ -46,5 +46,9 @@ formacaoDev.matricular(usuario3)
         println("${conteudo.nome} - Duração: ${conteudo.duracao} horas")
 }
 
-
+//listar aluno na formação
+ println("Usuários matriculados na Formação ${formacaoDev.nome}:")
+    for (usuario in formacaoDev.inscritos) {
+        println(usuario.nome)
+    } 
 }
