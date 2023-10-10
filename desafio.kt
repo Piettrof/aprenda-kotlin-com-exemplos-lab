@@ -35,5 +35,11 @@ fun main() {
 //Formação
     val formacaoDev = Formacao("Desenvolvedor Kotlin", listOf(conteudo1, conteudo2, conteudo3))
 
+//matricular alunos
+formacaoDev.matricular(usuario1)
+formacaoDev.matricular(usuario2)
+formacaoDev.matricular(usuario3)
+
+
 
 }
