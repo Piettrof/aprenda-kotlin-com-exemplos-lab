@@ -21,4 +21,9 @@ data class Formacao(val nome: String, var conteudos: List<ConteudoEducacional>) 
 fun main() {
     TODO("Analise as classes modeladas para este domínio de aplicação e pense em formas de evoluí-las.")
     TODO("Simule alguns cenários de teste. Para isso, crie alguns objetos usando as classes em questão.")
+    val usuario1 = Usuario("Kotin Brian")
+    val usuario2 = Usuario("DiJavan")
+    val usuario3 = Usuario("Gal  Godot")
+
+
 }
